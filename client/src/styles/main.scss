@@ -1,0 +1,32 @@
+@import './variables.scss';
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+    url('../../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'),
+    url('../../assets/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: yellow;
+  background-color: $dark-blue;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 468px) {
+    background-color: $white;
+  }
+}

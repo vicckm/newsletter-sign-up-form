@@ -1,0 +1,15 @@
+// Colors
+$error: hsl(4, 100%, 67%);
+$bg-error: hsla(4, 100%, 67%, 0.196);
+$bg-gradient: linear-gradient(
+  90deg,
+  rgba(131, 58, 180, 1) 0%,
+  rgba(253, 111, 29, 0.989233193277311) 59%,
+  rgba(252, 176, 69, 1) 100%
+);
+$grey: hsl(231, 7%, 60%);
+$dark-blue: hsl(234, 29%, 20%);
+$white: #fff;
+
+// Breakpoints
+$breakpoint-mb: 468px;

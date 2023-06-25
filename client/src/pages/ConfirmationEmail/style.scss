@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+
+.confirmation-email {
+  width: 35%;
+  background-color: $white;
+  padding: 20px;
+  border-radius: 25px;
+
+  @media (max-width: $breakpoint-mb) {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__info {
+    & > svg {
+      width: 50px;
+      height: 50px;
+    }
+
+    & > h1 {
+      font-family: 'Roboto-Bold';
+      font-size: 2.25rem;
+    }
+
+    & > p {
+      font-family: 'Roboto';
+      font-size: 1rem;
+      margin-bottom: 40px;
+
+      & > strong {
+        font-family: 'Roboto-Bold';
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.newsletter-list__item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  color: $dark-blue;
+  margin: 0;
+
+  & > svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  & > p {
+    margin: 10px 20px;
+    font-size: 0.875rem;
+
+    @media (max-width: 468px) {
+      font-size: 1rem;
+    }
+  }
+}
