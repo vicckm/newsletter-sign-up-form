@@ -9,11 +9,7 @@ export default function ConfirmationEmail() {
   const location = useLocation();
 
   return (
-    <section
-      className="confirmation-email"
-      // aria-live="polite"
-      // aria-atomic="true"
-    >
+    <section className="confirmation-email">
       <div className="confirmation-email__info">
         <IconList />
         <h1>Thanks for subscribing!</h1>
